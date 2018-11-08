@@ -1,0 +1,38 @@
+﻿body {
+}
+
+.padding_top {
+ background:#1cdc37 ;
+ padding:20px 20px 20px 20px;
+ margin:10cm 10cm 100px 100px;
+}
+
+
+/*导航*/
+
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:200px;
+    float:left;
+    padding:5px;	      
+}
+#section {
+    width:560px;
+    float:left;
+    padding:10px;	 	 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}

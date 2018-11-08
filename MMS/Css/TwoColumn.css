@@ -1,0 +1,61 @@
+﻿/*两栏的标准布局*/
+
+/*块*/
+.block
+{
+    border: solid 1px #6595D6;
+    padding: 2px;
+    margin: 5px;
+}
+
+/*块的标题样式*/
+.block_header
+{
+    background-color: #6595D6; /*块标题背景浅蓝色*/
+    color: White; /*块标题字体颜色为白色*/
+    padding: 2px;
+}
+
+/*最底层的块，是其它块的容器，自动在浏览器中居中*/
+#container
+{
+    margin: 0 auto;
+    width: 600px;
+}
+/*页面上端长条的区域，用于放置各种大幅的广告*/
+#pageheader
+{
+    clear: both; /*清除各种排版方法的影响*/
+    text-align: center;
+    margin: 5px;
+    background-color: silver;
+    padding: 5px;
+}
+
+/* 页面最底端的“脚注”部分*/
+#pagefooter
+{
+    clear: both; /*清除各种排版方法的影响*/
+    text-align: center;
+    background-color: silver;
+    padding: 5px;
+}
+/* 左面板*/
+
+#left_panel
+{
+    top: 0px;
+    float: left;
+    width: 30%;
+}
+
+/* 右面板*/
+
+#right_panel
+{
+    top: 0px;
+    float: right;
+    width: 70%;
+}
+
+

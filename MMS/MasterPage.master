@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+        <link rel="stylesheet" type="text/css" href="Css/model.css" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+    </div>
+        <div id="na">
+            <ul>
+                <li> <a href="基本网页框架.aspx" class="active">基本网页框架</a></li>
+            <li><a href="#">陈杏</a></li>
+            </ul>
+        </div>
+
+        <div id="nav">
+                <div id="navinner">
+                    <ul>
+                        <li><a href="index.aspx" class="active">首页</a></li>
+                        <li><a href="#">我的主页</a></li>
+                        <li><a href="#">同学动静</a></li>
+                        <li><a href="#">同学日志</a></li>
+                        <li><a href="#">相册</a></li>
+                        <li><a href="#">留言板</a></li>
+                        <li><a href="#">搜索</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+
+    </form>
+</body>
+</html>

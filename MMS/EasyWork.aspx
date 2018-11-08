@@ -12,6 +12,21 @@
     <div>
     
     </div>
+        <asp:HiddenField ID="HiddenField1" runat="server" />
+        <asp:Timer ID="Timer1" runat="server">
+        </asp:Timer>
+        <asp:View ID="View1" runat="server">
+        </asp:View>
+        <asp:GridView ID="GridView1" runat="server">
+        </asp:GridView>
+        <asp:DataList ID="DataList1" runat="server">
+        </asp:DataList>
+        <asp:Menu ID="Menu1" runat="server">
+        </asp:Menu>
+        <asp:Panel ID="Panel1" runat="server" Height="148px">
+        </asp:Panel>
+        <asp:MultiView ID="MultiView1" runat="server">
+        </asp:MultiView>
     </form>
 </body>
 </html>

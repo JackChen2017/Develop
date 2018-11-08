@@ -1,0 +1,55 @@
+﻿ #title
+        {
+            text-align: center;
+            font-size: 3em;
+            margin: 10px;
+            font-family: "Times New Roman" , Times, serif;
+            font-style: italic;
+            background-color: #CCCCFF;
+            border: 1px blue dotted;
+        }
+
+p
+        {
+            text-indent: 2em;
+            text-align: justify;
+            text-justify: inter-ideograph;
+        }
+#introduce
+        {
+            border: 1px black red;
+            background-color: silver;
+            text-indent: 2em;
+            text-align: justify;
+            text-justify: inter-ideograph;
+            float: left;
+            width: 300px;
+            padding: 5px;
+            margin: 10px;
+            border: 1px black solid;
+        }
+
+#c1 {
+    border: double;
+    border-color: red;
+        background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+
+}
+
+#container
+        {
+
+    border:double;
+    border-color:red;
+    background-color:black;
+    color:red;
+    text-align:center;
+    padding:5px;
+            /*width: 700px;
+            margin: 0 auto;
+            border: 1px black double;
+            padding: 5px 5px 5px 5px;*/
+        }
